@@ -1,0 +1,52 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(235, 127, 195);
+    border-radius: 10px;
+}
+
+.homeform{
+  padding: 30px;
+  background:rgba(46, 43, 43, 0.888);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.heading{
+    font-family:cursive;
+    font-size: xx-large;
+    color: white;
+}
+
+.username{
+  width: 80%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 5px solid rgb(235, 127, 195);
+  font-size:medium;
+}
+
+.rooms{
+    width: 75%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 5px solid rgb(235, 127, 195);
+    font-size:medium;
+}
+
+.option{
+    background-color: rgba(46, 43, 43, 0.888);
+    color: white;
+}
+
+.button{
+    width:60%;
+    padding: 10px;
+    border-radius: 10px;
+}
